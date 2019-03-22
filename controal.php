@@ -171,8 +171,8 @@ function CreateRow($row){
    echo '<td>' . $row['email'] . '</td>';
    echo '<td>' . $row['phone'] . '</td>';
    echo '<td>' . $row['targeted'] . '</td>';
-   echo '<td>' . $row['types'] . '</td>';
    echo '<td>' . $row['org'] . '</td>';
+   echo '<td>' . $row['types'] . '</td>';
    echo '<td>' . $row['note'] . '</td>';
 
    echo "</tr>";
@@ -206,8 +206,8 @@ function doSomething(){
       echo '<td>' . $row['email'] . '</td>';
       echo '<td>' . $row['phone'] . '</td>';
       echo '<td>' . $row['targeted'] . '</td>';
-      echo '<td>' . $row['types'] . '</td>';
       echo '<td>' . $row['org'] . '</td>';
+      echo '<td>' . $row['types'] . '</td>';
       echo '<td>' . $row['note'] . '</td>';
       echo "</tr>";
 

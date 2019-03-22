@@ -23,10 +23,16 @@ $app->post('/register', function($request, $response){
                 $org = $data['org'];
                 $note = $data['note'];
                 $type = $data['type_of_participation'];
+                
                 $rb = "";
-                foreach ($type as $tb){
-                    $rb = $rb . ", " . $tb;
+                if (count($type) > 1){
+                    foreach ($type as $tb){
+                        $rb = $rb . ", " . $tb;
+                    }
+                } else {
+                    $rb = $type;
                 }
+                
                 if (Register($name, $gender, $email, $phone, $target, $org, $rb, $note) == TRUE ){
                     echo(json_encode(array(
                         "status" => 200
