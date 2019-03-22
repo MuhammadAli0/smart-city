@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Colorlib App - App Landing Page</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+
+    <script>
+        $.fn.serializeObject = function () {
+            var o = {};
+            var a = this.serializeArray();
+            $.each(a, function () {
+                if (o[this.name] !== undefined) {
+                    if (!o[this.name].push) {
+                        o[this.name] = [o[this.name]];
+                    }
+                    o[this.name].push(this.value || '');
+                } else {
+                    o[this.name] = this.value || '';
+                }
+            });
+            return o;
+        };
+        </script>
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logo1.png" class="logoimg">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar"
+                                aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                                    class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">الرئيسية</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">المحاور</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#features">الرعاه</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#screenshot">صور </a></li>
+                                    <!--<li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> -->
+                                    <li class="nav-item"><a class="nav-link" href="#testimonials">الاهداف</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#team">اللجنه</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+                                </ul>
+                                <div class="sing-up-button d-lg-none">
+                                    <a href="#" id="Register2">تسجيل</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        <a href="#" id="Register1">تسجيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h3 style="text-align: end;">فى ضوء توجيهات فخامه السيد الرئيس / عبد الفتاح السيسي ,بتفعيل
+                            استراتيجيه التحول الرقمى ومدينه المعرفه بالعاصمه الاداريه الجديده </h3>
+                        <p> : تحت رعاية</p><br>
+                        <ul>
+                            <li style=""> الجامعه المصريه الصينيه </li>
+                            <li>مؤسسه الاهرام - مجله لغه العصر للكميوتر والانترنت والاتصالات </li>
+                            <li>جامعه عين شمس - مركز بحوث جامعه عين شمس </li>
+                            <li>لامنظمه الدوليه لعلوم الحاسب الالى وتكنولجيا المعلومات </li>
+
+                        </ul>
+                        <p style="text-align: end;">نتشرب بدعوه سيادتكم لحضور فعاليات المؤتمر الدولى الاول
+                            دعم مبادره الرئيس: التحول الرقمى واداره المدن الذكيه‬‬
+                            والذى سيعقد فعالياته يوم السبت الموافق 23/03/2019 بفندق لوميريديان هليوبوليس بالقاهره
+                            سيعقد على هامش المؤتمر ورش عمل تطبيقيه دوليه خلال يومى 24 و 25 من الشهر الثالث لسنه </p>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Welcome thumb -->
+
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
+                    <div class="section-heading text-center">
+                        <h2> محاور المؤتمر </h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mehwar">
+                    <ul>
+                        <li>
+                            <p>
+                                التخطيط الأستراتيجي للتحول الرقمي للحكومة الذكية بكافة وزارتها ومؤساتها بالتطبيق على
+                                مدينة المعرفة وغيرها وخاصة رقمنة المحتوى الثقافي فى المدن الذكية.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                بوابة المحتوى الثقافي الرقمي المصري، وإتاحتها للعالم بصورة رقمية لاستعادة الهوية المصرية
+                                الرقمية وتقديم محتوي ثقافي وتاريخي هادف للشباب ومستخدمي الانترنت.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                إنشاء "بوابة" إلكترونية لاتاحة خدمات المحتوى الثقافي للمجتمعات المصرية والعربية
+                                والدولية، على جميع أجهزة التليفون المحمول الكمبيوتر و"التابلت"، وتأمين المحتوى بأفضل نظم
+                                إدارة الحقوق الرقمية.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                اقتصاد المعلومة باتاحة الزيارات الافتراضية للمتاحف والمواقع الاثرية، ليكون نافذة جديدة
+                                للترويج الي مصر سياحيا وثقافيا وحضاريا بعدة لغات لتقديم المحتوي لجميع مستخدمي الانترنت
+                                عالميا وليس المنطقة العربية فقط.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                التطبيقات التكنولوجية لإستخدامات الموبايل بما يساهم في تطوير خدمات الحكومة الذكية .
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                تجربة المجلس الأعلى للجامعات المصرية وتنميه الإتجاهات الحديثة في نظم التعليم الذكية
+                                والمكتبة الرقمية .
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                تبني وتطوير وتحفيز كوادر الطلاب لعدد 10000 طالب في إستخدام التطبيقات الإلكترونية.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                تطوير أساليب العقود الالكترونية ، وأساليب فض المنازعات الناشئة عنها.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                التطبيقات التكنولوجية المختلفة للمدن الذكية والمجتمعات العمرانية والاسكان.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                التطبيقات العملية فى الذكاء الاصطناعى فى مجالات الطب و الصحة و التعليم والاسكان والتموين
+                                والتجارة الداخلية الاستثمار...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Awesome Features Start ***** -->
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text -->
+                    <div class="section-heading text-center">
+                        <h2>الرعاه</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-2 col-xs-6">
+                    <div class="single-feature">
+                        <img src="img/sponsors/ss1.png" class="ti-pulse" style="padding: 10% 0% 0 13%;">
+
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-2 col-xs-6">
+                    <div class="single-feature">
+                        <img src="img/sponsors/ss2.png" class="ti-pulse" style="padding: 0 0 0 15%;">
+
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-2 col-xs-6">
+                    <div class="single-feature">
+                        <img class="ti-dashboard" src="img/sponsors/ss3.png" style="padding-top: 27%;">
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-2 col-xs-6">
+                    <div class="single-feature">
+                        <img class="ti-palette" src="img/sponsors/ss4.png" style="padding-top: 38%;">
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-2 col-xs-6">
+                    <div class="single-feature">
+                        <img class="ti-crown" src="img/sponsors/ss5.jpeg">
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-2 col-xs-6">
+                    <div class="single-feature">
+                        <img class="ti-headphone" src="img/sponsors/ss6.jpeg" style="padding: 10% 0 0 0;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ***** Awesome Features End ***** -->
+
+
+    <!-- ***** App Screenshots Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>صور</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="app_screenshots_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="img/team-img/speaker/safaa1.jpeg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/team-img/speaker/hussen1.jpeg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/team-img/speaker/essam1.jpeg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/team-img/speaker/ayman1.jpeg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/team-img/speaker/safaa1.jpeg" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/team-img/speaker/hussen1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** App Screenshots Area End *****====== -->
+
+    <!-- ***** Pricing Plane Area Start *****==== -->
+    <!--   <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">-->
+    <!-- Heading Text  -->
+    <!--  <div class="section-heading text-center">
+                        <h2>Pricing Plan</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-3">-->
+    <!-- Package Price  -->
+    <!-- <div class="single-price-plan text-center"> -->
+    <!-- Package Text  -->
+    <!-- <div class="package-plan">
+                            <h5>Starter Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>29</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>-->
+    <!-- Plan Button  -->
+    <!-- <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">-->
+    <!-- Package Price  -->
+    <!-- <div class="single-price-plan text-center">-->
+    <!-- Package Text  -->
+    <!--  <div class="package-plan">
+                            <h5>Basic Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>49</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>-->
+    <!-- Plan Button  -->
+    <!--<div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">-->
+    <!-- Package Price  -->
+    <!-- <div class="single-price-plan active text-center">-->
+    <!-- Package Text  -->
+    <!-- <div class="package-plan">
+                            <h5>Advenced Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>69</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>-->
+    <!-- Plan Button  -->
+    <!--<div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">-->
+    <!-- Package Price  -->
+    <!--<div class="single-price-plan text-center">-->
+    <!-- Package Text  -->
+    <!-- <div class="package-plan">
+                            <h5>Community Plan</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>99</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Up to 10 users monthly</p>
+                            <p>Unlimited updates</p>
+                            <p>Free host &amp; domain</p>
+                            <p>24/7 Support</p>
+                            <p>10 Unique Users</p>
+                        </div>-->
+    <!-- Plan Button  -->
+    <!-- <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  -->
+    <!-- ***** Pricing Plane Area End ***** -->
+
+
+    <!-- ***** CTA Area Start ***** -->
+    <section class="our-monthly-membership section_padding_50 clearfix" id="testimonials">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2 style="color: #fff">اهداف المؤتمر</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+                <div class="col-md-">
+                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.1s">
+                        <p>يهدف المؤتمر إلي تفعيل منظومة التحول الرقمي، والتوسع في التطبيقات الخاصة بإدارة المدن الذكية
+                            التي تعتمد علي التقنيات الحديثة بنظم المعلومات المتقدمة في المجالات والأنشطة الإقتصادية
+                            والتجارية والمعماريه والهندسية والتعليمية والذكاء الصناعي (مثل تقنيات البلوك شين وغيرها)،
+                            بالإضافة الي إعادة تصميم نظم المعلومات المختلفة في مجالات الإدارة الإستراتيجية والإتجاهات
+                            الحديثة في الأنشطة التعليمية والصحية والتسويقية والرياضية والسكينة، بما يساهم في التطبيق
+                            الأمثل لمنظومة المدن الذكية في مختلف المجتمعات العمرانية، وبصفة خاصة مدينة المعرفة المزمع
+                            إقامتها في العاصمة الإدارية الجديدة، وذلك في ضوء رؤية واستراتيجية مصر 2030م
+                        </p>
+
+                        <p>ويشارك فى المؤتمر متحدثون ومشاركون لعرض تجاربهم حول أهم التطبيقات المتطورة لتحقيق أهداف
+                            المؤتمر فى دعم مبادرة فخامة الرئيس السيسي للتحول الرقمي والتقنيات التكنولوجية فى كافة
+                            الانشطة المجتمعية والاقتصادية والاجتماعية لتحقيق ما يلى </p>
+                        <h4>
+                            <ul>
+                                <li>قطاع الاتصالات وتكنولوجيا المعلومات إحدى الركائز الأساسية للنمو الاقتصادى والاجتماعى
+                                    فى الدولة </li><br>
+
+                                <li>تهيئة بيئة جاذبة للإبداع والاستثمار التكنولوجى، وتعميق الصناعات التكنولوجية المتخصصة
+                                </li><br>
+
+                                <li>زيادة حجم التصنيع الإلكترونى بما يساهم فى توفير المزيد من فرص العمل للشباب </li><br>
+
+                                <li>الالتزام بالجدول الزمنى لإنشاء "مدينة المعرفة" بالعاصمة الإدارية الجديدة </li>
+
+                            </ul>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** CTA Area End ***** -->
+
+    <!-- ***** Our Team Area Start ***** -->
+    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>اللجنة التنظيميه للمؤتمر</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-1.jpeg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>أ.د/ صفاء سيد محمود</h4>
+                            <p>عميد علوم الحاسب ونظم المعلومات, استاذ تكنولجيا المعلومات بجامعه عين شمس</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-2.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>أ.د/ اشرف الشيحي</h4>
+                            <p>وزير التعليم العالى الاسبق ورئيس الجامعه الصينيه</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-3.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>الوزيره أ.د/ ناديه زخاري</h4>
+                            <p>وزير الدوله للبحث العلمى الاسبق</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-4.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>الوزير اللواء/ طارق مهدى</h4>
+                            <p>محافظ الاسكندريه, الوادى الجديد, محافظ البحر الاحمر الاسبق</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Team Area End ***** -->
+
+    <!-- ***** Contact Us Area Start ***** -->
+    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>تواصل معنا</h2>
+                        <div class="line-shape"></div>
+                    </div>
+
+
+                    <div class="phone-text">
+                        <p><span>Phone:</span> 010-0071-0082 & 010-0481-1990‬‬ ‬‬</p>
+                    </div>
+                    <div class="email-text">
+                        <p><span>Email:</span> safaasms@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Form Start-->
+                    <div class="contact_from">
+                        <form action="#" method="post">
+                            <!-- Message Input Area Start -->
+                            <div class="contact_input_area">
+                                <div class="row">
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name"
+                                                placeholder="Your Name" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                placeholder="Your E-mail" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30"
+                                                rows="4" placeholder="Your Message *" required></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn submit-btn"
+                                            style="font-size: 18px;">ارسال</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Message Input Area End -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <img src="img/logo1.png">
+        </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2019 Designed by <a href="https://colorlib.com" target="_blank">ideaMaker</a></p>
+        </div>
+    </footer>
+    <!-- ***** Footer Area Start ***** -->
+
+ 
+
+    <section class="popup" id="Register">
+        <div class="Register">
+            <h1><a href="">Register</a></h1>
+            <a href="" class="exit" id="exit"><img src="img/1401830870_Close.png"></a>
+            <div>
+                <ul id="response">
+                    <form action="" method="POST" id="register">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <li><input type="text" name="name" placeholder="الاسم  كامل" required=""></li>
+                            </div>
+                            <div dir="rtl">
+                                <label>النوع *:</label>
+                                <input type="radio" name="gender" value="ذكر" required="">
+                                ذكر
+                                <input type="radio" name="gender" value="انثي" required="">
+                                انثي </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <li class="li12"><input type="tel" name="phone" placeholder="رقم الهاتف" required="">
+                                </li>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <li><input type="email" name="email" placeholder="البريد الالكترونى" required=""></li>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <li><input type="text" name="target" placeholder="جهة القدوم" required=""></li>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <li>
+                                    <input type="text" name="org" placeholder="المؤسسة التابع لها" required="">
+                                </li>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                            <div dir="rtl">
+                                <li style="text-align: right;"><label>نوع المشاركة *:</label></li>
+                                <input type="checkbox" name="type_of_participation[]" value="بحث"> بحث
+                                <input type="checkbox" name="type_of_participation[]" value="حضور" checked> حضور
+                                <input type="checkbox" name="type_of_participation[]" value="مشاركة_فى_المعرض">
+                                مشاركة_فى_المعرض
+                                <input type="checkbox" name="type_of_participation[]" value="اخري"> اخري
+
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <li>
+                                    <input id="note" type="text" name="note" placeholder="فى حاله وجود اى ملاحظات..">
+                                </li>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5">
+                            <li><button type="submit" class="btn btn-primary" name="register"
+                                    id="btnsub">submit</button></li>
+                        </div>
+
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+    <script type="text/javascript">
+        $("#Register1").click(function () {
+            $(".popup").show(1000);
+        });
+        
+
+    </script>
+    <script type="text/javascript">
+
+        $("#Register2").click(function () {
+            $(".popup").show(1000);
+        });
+        $(document).on('submit', '#register', function () {
+            // get form data
+            var login_form = $(this);
+            var data = JSON.stringify(login_form.serializeObject());
+            // submit form data to api
+            var xhr = new XMLHttpRequest();
+            xhr.withCredentials = true;
+            xhr.addEventListener("readystatechange", function () {
+                if (this.readyState === 4) {
+                    try {
+                        
+                        result = $.parseJSON(this.responseText)
+                        console.log(result);
+
+                        if (result['status'] === 200) {
+                            $('#response').html("<div class='alert alert-success'>Successful Registerd  سوف نتواصل معك فى اقرب وقت لتأكيد الحجز.  شكرآ للتسجيل.</div>");
+                        } else if (result['status'] === 300) {
+                            $('#response').html("<div class='alert alert-danger'> هناك خطأ فى التسجيل, تأكد من ان البريد الالكترونى ورقم الهاتف ليست مسجله مسبقآ.</div>");
+                        } else {
+
+                            $('#response').html("<div class='alert alert-danger'> هناك خطأ,, من فضلك حاول فى وقت لاحق.</div>");
+                        }
+                    }
+                    catch (err) {
+                        $('#response').html("<div class='alert alert-danger'>هناك خطأ,, من فضلك حاول فى وقت لاحق.</div>");
+                    }
+                }
+            });
+            xhr.open("POST", "https://" + window.location.hostname + "/api/index.php/register");
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.setRequestHeader("cache-control", "no-cache");
+            xhr.send(data);
+            return false;
+        });
+    </script>
+</body>
+
+</html>
